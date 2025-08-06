@@ -8,6 +8,10 @@ body{
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .manrope-font {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
