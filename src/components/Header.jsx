@@ -4,7 +4,7 @@ function Header() {
     return (
         <header>
             <nav
-                className="h-18 w-[100vw] px-3 md:px-10 lg:px-15 fixed top-0 manrope-font bg-white/10 backdrop-blur-md flex items-center font-semibold "
+                className="h-18 w-[100vw] z-[30] px-3 md:px-10 lg:px-15 fixed top-0 manrope-font bg-white/10 backdrop-blur-md flex items-center font-semibold "
             >
                 <div className="flex items-center justify-center gap-1">
                     <img src="/logo.webp" alt="" className="h-12 w-12" />
