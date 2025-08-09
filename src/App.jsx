@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Home from './pages/Home'
 import Events from './pages/Events'
 import UpcomingEvents from './pages/UpcomingEvents'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <Home/>
       <Events/>
       <UpcomingEvents/>
+      <Footer/>
     </>
   )
 }
