@@ -6,32 +6,32 @@ function UpcomingEvents() {
         {
             id: '1',
             eventName: 'Table Tennis',
-            img: 'homeImgXl.webp'
+            img: 'tabletennis.png'
         },
         {
             id: '2',
-            eventName: 'Table Tennis',
-            img: 'homeImgXl.webp'
+            eventName: 'Chess Tournament',
+            img : 'chess.png'
         },
         {
             id: '3',
-            eventName: 'Table Tennis',
-            img: 'homeImgXl.webp'
+            eventName: 'Hackathon',
+            img : 'hackathon.png'
         },
         {
             id: '4',
-            eventName: 'Table Tennis',
-            img: 'homeImgXl.webp'
+            eventName: 'Monthly Meetup',
+            img: 'meetup.png'
         },
         {
             id: '5',
-            eventName: 'Table Tennis',
+            eventName: 'Cultural Evening',
             img: 'homeImgXl.webp'
         },
         {
             id: '6',
-            eventName: 'Table Tennis',
-            img: 'homeImgXl.webp'
+            eventName: 'Yoga & Meditation Session',
+            img: 'yoga.png'
         }
     ]
 
@@ -45,8 +45,8 @@ function UpcomingEvents() {
                     {
                         upComingEvents &&
                         upComingEvents.map((data, index) => (
-                            <div key={data.id} className='w-[90vw] md:w-[30vw] flex flex-col bg-purple-100 rounded-xl hover:scale-101 transition-all'>
-                                <img src={data.img} alt="" className='rounded-t-xl'/>
+                            <div key={data.id} className='w-[90vw] md:w-[30vw] h-80 flex flex-col bg-purple-100 rounded-xl hover:scale-101 transition-all'>
+                                <img src={data.img} alt="" className='rounded-t-xl h-[75%]'/>
                                 <div className='p-4'> 
                                     <p className='text-[27px] font-semibold'>{data.eventName}</p>
                                 </div>

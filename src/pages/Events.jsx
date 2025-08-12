@@ -108,7 +108,7 @@ export default function Events() {
           </Badge> */}
 
         <div>
-          <h1 className="text-5xl font-semibold">Our <span className="text-[#4c50a9]">Events</span> </h1>
+          <h1 className="text-4xl md:text-5xl font-semibold">Our <span className="text-[#4c50a9]">Events</span> </h1>
         </div>
 
         <div className="relative w-full h-[280px] md:h-[45vh] xl:h-[70vh] flex items-center justify-center overflow-hidden" onMouseEnter={() => setIsPaused(true)} onMouseLeave={() => setIsPaused(false)}>
