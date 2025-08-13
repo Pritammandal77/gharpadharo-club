@@ -54,29 +54,7 @@ function Gallery() {
                 <div>
                     <h1 className="text-4xl md:text-5xl font-semibold">Image <span className="text-[#4c50a9]">Gallery</span> </h1>
                 </div>
-                {/* <div className='flex justify-center gap-1 xl:gap-5 w-full px-1 xl:px-0 animate-marquee '>
-                    <div className='flex flex-col w-[33vw] xl:w-[25vw] gap-1 xl:gap-5'>
-                        {
-                            imageCol1 && imageCol1.map((data, index) => (
-                                <img src={data.img} key={index} alt="failed to load the image" className='w-[100%] h-auto xl:rounded-xl' />
-                            ))
-                        }
-                    </div>
-                    <div className='flex flex-col w-[33vw] xl:w-[25vw] gap-1 xl:gap-5'>
-                        {
-                            imageCol2 && imageCol2.map((data, index) => (
-                                <img src={data.img} key={index} alt="failed to load the image" className='w-[100%] h-auto xl:rounded-xl' />
-                            ))
-                        }
-                    </div>
-                    <div className='flex flex-col w-[33vw] xl:w-[25vw] gap-1 xl:gap-5'>
-                        {
-                            imageCol3 && imageCol3.map((data, index) => (
-                                <img src={data.img} key={index} alt="failed to load the image" className='w-[100%] h-auto xl:rounded-xl' />
-                            ))
-                        }
-                    </div>
-                </div> */}
+
                 <div className="overflow-hidden w-full">
                     <div className="animate-marquee">
                         {/* First set */}
@@ -143,3 +121,33 @@ function Gallery() {
 }
 
 export default Gallery;
+
+
+
+
+
+
+// old image gallery code
+{/* <div className='flex justify-center gap-1 xl:gap-5 w-full px-1 xl:px-0 animate-marquee '>
+                    <div className='flex flex-col w-[33vw] xl:w-[25vw] gap-1 xl:gap-5'>
+                        {
+                            imageCol1 && imageCol1.map((data, index) => (
+                                <img src={data.img} key={index} alt="failed to load the image" className='w-[100%] h-auto xl:rounded-xl' />
+                            ))
+                        }
+                    </div>
+                    <div className='flex flex-col w-[33vw] xl:w-[25vw] gap-1 xl:gap-5'>
+                        {
+                            imageCol2 && imageCol2.map((data, index) => (
+                                <img src={data.img} key={index} alt="failed to load the image" className='w-[100%] h-auto xl:rounded-xl' />
+                            ))
+                        }
+                    </div>
+                    <div className='flex flex-col w-[33vw] xl:w-[25vw] gap-1 xl:gap-5'>
+                        {
+                            imageCol3 && imageCol3.map((data, index) => (
+                                <img src={data.img} key={index} alt="failed to load the image" className='w-[100%] h-auto xl:rounded-xl' />
+                            ))
+                        }
+                    </div>
+                </div> */}
