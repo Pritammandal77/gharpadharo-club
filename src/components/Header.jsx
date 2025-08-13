@@ -4,17 +4,17 @@ function Header() {
     return (
         <header>
             <nav
-                className="h-14 xl:h-16 w-[100vw] z-[30] px-2 md:px-10 lg:px-15 fixed top-0 manrope-font bg-white/10 backdrop-blur-md flex items-center justify-between font-semibold "
+                className="h-14 xl:h-16 w-[100vw] z-[30] px-2 md:px-10 lg:px-15 fixed top-0 manrope-font bg-white/10 backdrop-blur-md flex items-center justify-between "
             >
-                <div className="flex items-center justify-center gap-1 text-[16px]">
+                <div className="flex items-center justify-center gap-1 text-[16px] font-semibold ">
                     <img src="/logo.webp" alt="" className="h-12 w-12" />
                     <p className="text-[18px] text-black">GharPadharo Club</p>
                 </div>
 
                 <div>
-                    <a href='https://www.gharpadharo.com/' target='_blank' className='px-2 py-1 xl:py-2 rounded-xl text-[14px] text-gray-300 xl:text-[15px] bg-[#525599] cursor-pointer'>
+                    <a href='https://www.gharpadharo.com/' target='_blank' className='px-2 py-2 xl:py-2 rounded-xl text-[14px] text-gray-200 xl:text-[15px] bg-[#525599] cursor-pointer'>
                         Main Website
-                        <i className="fa-solid fa-arrow-right px-2"></i>
+                        <i className="fa-solid fa-arrow-right pl-2 pr-1"></i>
                     </a>
                 </div>
             </nav>
