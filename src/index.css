@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   overflow-x: hidden;
   background-color: #F7F7F7;
 }
@@ -16,6 +16,36 @@ html {
 .manrope-font {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: 400; */
   font-style: normal;
+}
+
+
+/* this both animations works the same */
+
+/* @keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} */
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 8s linear infinite;
+}
+
+.animate-marquee img {
+  will-change: transform;
 }
