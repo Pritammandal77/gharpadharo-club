@@ -37,7 +37,7 @@ function UpcomingEvents() {
 
     return (
         <>
-            <div className='w-full h-auto flex flex-col items-center gap-10 py-10 xl:pt-30'>
+            <div className='w-full h-auto flex flex-col items-center gap-10 py-10 xl:pt-30' id='upcoming-events'>
                 <div>
                     <h1 className="text-4xl md:text-5xl font-semibold">Upcoming <span className="text-[#4c50a9]">Events</span> </h1>
                 </div>
@@ -45,10 +45,10 @@ function UpcomingEvents() {
                     {
                         upComingEvents &&
                         upComingEvents.map((data, index) => (
-                            <div key={data.id} className='w-[90vw] md:w-[30vw] h-80 flex flex-col bg-purple-50 rounded-xl hover:scale-101 transition-all'>
+                            <div key={data.id} className='w-[85vw] md:w-[30vw] h-65 md:h-55 xl:h-80 flex flex-col bg-purple-50 rounded-xl hover:scale-101 transition-all'>
                                 <img src={data.img} alt="" className='rounded-t-xl h-[75%]'/>
                                 <div className='p-4'> 
-                                    <p className='text-[27px] font-semibold'>{data.eventName}</p>
+                                    <p className='text-[22px] lg:text-[27px] font-semibold'>{data.eventName}</p>
                                 </div>
                             </div>
                         ))

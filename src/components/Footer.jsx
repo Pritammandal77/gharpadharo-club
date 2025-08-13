@@ -55,26 +55,26 @@ const Footer = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#aboutus"
+                                    href="#events"
                                     className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-purple-500 transition-colors duration-300"
                                 >
-                                    About Us
+                                    Events
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="#services"
+                                    href="#gallery"
                                     className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-purple-500 transition-colors duration-300"
                                 >
-                                    Services
+                                    Image Gallery
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="#worksamples"
+                                    href="#upcoming-events"
                                     className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-purple-500 transition-colors duration-300"
                                 >
-                                    Work Samples
+                                    Upcoming Events
                                 </a>
                             </li>
                             <li>
@@ -130,9 +130,14 @@ const Footer = () => {
                             Gharpadharo HQ, Nanda Ki Chowki-Premnagar, Dehradun,
                             Uttarakhand, India
                         </p>
+                         <p className="text-gray-600 dark:text-gray-300">
+                            <a href="tel:+917903266907">
+                                <i className="fa-solid fa-phone-volume"></i> +91 7903266907
+                            </a>
+                        </p>
                         <p className="text-gray-600 dark:text-gray-300">
                             <a href="mailto:gharpadharo@gmail.com">
-                                <i className="fa-regular fa-envelope pr-2"></i> thetechbanao@gmail.com
+                                <i className="fa-regular fa-envelope pr-2"></i> gharpadharo@gmail.com
                             </a>
                         </p>
 
