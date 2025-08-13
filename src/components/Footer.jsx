@@ -126,13 +126,13 @@ const Footer = () => {
                             Contact Us
                         </h3>
                         <p className="text-gray-600 dark:text-gray-300">
-                            <i class="fa-solid fa-location-dot pr-2"></i>
+                            <i className="fa-solid fa-location-dot pr-2"></i>
                             Gharpadharo HQ, Nanda Ki Chowki-Premnagar, Dehradun,
                             Uttarakhand, India
                         </p>
                         <p className="text-gray-600 dark:text-gray-300">
                             <a href="mailto:gharpadharo@gmail.com">
-                                <i class="fa-regular fa-envelope pr-2"></i> thetechbanao@gmail.com
+                                <i className="fa-regular fa-envelope pr-2"></i> thetechbanao@gmail.com
                             </a>
                         </p>
 

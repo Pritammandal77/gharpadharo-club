@@ -17,7 +17,7 @@ function App() {
       <Header />
       <Home/>
       <Events/>
-      {/* <Gallery/> */}
+      <Gallery/>
       <UpcomingEvents/>
       <Footer/>
     </>
