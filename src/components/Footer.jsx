@@ -30,7 +30,7 @@ const Footer = () => {
                                 href="https://www.linkedin.com/company/gharpadharo/"
                                 target="_blank"
                                 className="text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-purple-500 transition-transform transform hover:scale-110"
-                            >
+                              >
                                 <i className="fa-brands fa-linkedin text-[30px]"></i>
                             </a>
                             <a
