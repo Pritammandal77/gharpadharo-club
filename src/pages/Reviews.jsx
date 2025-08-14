@@ -15,7 +15,7 @@ function Reviews() {
 
             <h1 className="text-4xl md:text-5xl font-semibold">Our <span className="text-[#4c50a9]">Reviews</span> </h1>
 
-            <div className='flex items-center justify-center w-[90%]'>
+            <div className='flex items-center justify-center w-[95%] md:w-[90%]'>
                 <Swiper
                     modules={[Navigation, Pagination, A11y, Autoplay]}
                     spaceBetween={50}
@@ -33,10 +33,47 @@ function Reviews() {
                         1024: { slidesPerView: 3 },    //  PC: 3 cards
                     }}
                 >
-                    <SwiperSlide><ReviewCard /></SwiperSlide>
-                    <SwiperSlide><ReviewCard /></SwiperSlide>
-                    <SwiperSlide><ReviewCard /></SwiperSlide>
-                    <SwiperSlide><ReviewCard /></SwiperSlide>
+                    <SwiperSlide>
+                        <ReviewCard
+                            name="Shubham Singh"
+                            position="Seeker"
+                            avatarName="SS"
+                            msg="Very good service"
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ReviewCard
+                            name="Priya Sharma"
+                            position="Seeker"
+                            avatarName="PS"
+                            msg="The process was smooth and the team was extremely helpful in finding the right property."
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ReviewCard
+                            name="Amit Verma"
+                            position="Seeker"
+                            avatarName="AV"
+                            msg="GharPadharo helped me get my dream home faster than I expected. Highly recommended!"
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ReviewCard
+                            name="Neha Kapoor"
+                            position="Seeker"
+                            avatarName="NK"
+                            msg="Professional service with a personal touch. They truly care about their clients."
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ReviewCard
+                            name="Rohit Mehra"
+                            position="Seeker"
+                            avatarName="RM"
+                            msg="From start to finish, everything was transparent and efficient. Great experience!"
+                        />
+                    </SwiperSlide>
+
                 </Swiper>
             </div>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ReviewCard() {
+function ReviewCard({name, position , avatarName}) {
     return (
         <>
             <div
@@ -8,17 +8,17 @@ function ReviewCard() {
             >
                 <div className="flex items-center space-x-4">
                     <div
-                        className="h-12 w-12 flex items-center justify-center bg-red-500 text-white text-lg font-semibold rounded-full"
+                        className="h-12 w-12 flex items-center justify-center bg-purple-500 text-white text-lg font-semibold rounded-full"
                     >
-                        DJ
+                        {avatarName}
                     </div>
                     <div>
-                        <div className="text-gray-900 font-medium">Donald Jackman</div>
-                        <div className="text-gray-600 text-sm">Content Creator</div>
+                        <div className="text-gray-900 font-medium">{name}</div>
+                        <div className="text-gray-600 text-sm">{position}</div>
                     </div>
                 </div>
 
-                <div className="flex text-red-500 text-xl">★★★★★</div>
+                <div className="flex text-[#525599] text-xl">★★★★★</div>
 
                 <p className="text-gray-700">
                     I've been using Imagify for nearly two years, primarily for Instagram, and

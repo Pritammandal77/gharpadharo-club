@@ -4,7 +4,7 @@ function Header() {
     return (
         <header>
             <nav
-                className="h-14 lg:h-16 w-[100vw] z-[30] px-2 md:px-10 lg:px-7 xl:px-15 fixed top-0 manrope-font bg-white/10 backdrop-blur-md flex items-center justify-between "
+                className="h-14 lg:h-16 w-[100vw] z-[30] px-2 md:px-10 lg:px-7 xl:px-15 bg-white fixed top-0 manrope-font  flex items-center justify-between "
             >
                 <div className="flex items-center justify-center gap-1 text-[16px] font-semibold ">
                     <img src="/logo.webp" alt="" className="h-12 w-12" />
@@ -68,7 +68,7 @@ function Header() {
 
 export default Header;
 
-
+// bg-white/10 backdrop-blur-md     => code for transparent bg
 //old header
 {/* <nav className='h-18 manrope-font bg-[#ffffff] flex items-center font-semibold' style={{ boxShadow: '0px 10px 10px 1px rgba(0,0,0,0.1)' }}>
                     <div className='flex items-center justify-center gap-1'>
