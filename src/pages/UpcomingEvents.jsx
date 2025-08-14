@@ -1,4 +1,5 @@
 import React from 'react';
+import MotionWrapper from '../utils/MotionWrapper';
 
 function UpcomingEvents() {
 
@@ -11,12 +12,12 @@ function UpcomingEvents() {
         {
             id: '2',
             eventName: 'Chess Tournament',
-            img : 'chess.png'
+            img: 'chess.png'
         },
         {
             id: '3',
             eventName: 'Hackathon',
-            img : 'hackathon.png'
+            img: 'hackathon.png'
         },
         {
             id: '4',
@@ -45,12 +46,14 @@ function UpcomingEvents() {
                     {
                         upComingEvents &&
                         upComingEvents.map((data, index) => (
-                            <div key={data.id} className='w-[85vw] md:w-[30vw] h-65 md:h-55 xl:h-80 flex flex-col bg-purple-50 rounded-xl hover:scale-101 transition-all'>
-                                <img src={data.img} alt="" className='rounded-t-xl h-[75%]'/>
-                                <div className='p-4'> 
-                                    <p className='text-[22px] lg:text-[27px] font-semibold'>{data.eventName}</p>
+                            <MotionWrapper delay={0.3} key={data.id}>
+                                <div className='w-[85vw] md:w-[30vw] h-65 md:h-55 xl:h-80 flex flex-col bg-purple-50 rounded-xl hover:scale-101 transition-all'>
+                                    <img src={data.img} alt="" className='rounded-t-xl h-[75%]' />
+                                    <div className='p-4'>
+                                        <p className='text-[22px] lg:text-[27px] font-semibold'>{data.eventName}</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </MotionWrapper>
                         ))
                     }
                 </div>

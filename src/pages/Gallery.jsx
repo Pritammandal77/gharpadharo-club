@@ -59,17 +59,17 @@ function Gallery() {
                     <div className="animate-marquee">
                         {/* First set */}
                         <div className="flex justify-center gap-2 xl:gap-5 px-1 xl:px-2">
-                            <div className="flex flex-col w-[45vw] xl:w-[25vw] gap-2 xl:gap-5">
+                            <div className="flex flex-col w-[45vw] xl:w-[20vw] gap-2 xl:gap-5">
                                 {imageCol1.map((data, index) => (
                                     <img src={data.img} key={`col1-${index}`} alt="" className="w-full h-auto xl:rounded-xl" />
                                 ))}
                             </div>
-                            <div className="flex flex-col w-[45vw] xl:w-[25vw] gap-2 xl:gap-5">
+                            <div className="flex flex-col w-[45vw] xl:w-[20vw] gap-2 xl:gap-5">
                                 {imageCol2.map((data, index) => (
                                     <img src={data.img} key={`col2-${index}`} alt="" className="w-full h-auto xl:rounded-xl" />
                                 ))}
                             </div>
-                            <div className="flex flex-col w-[45vw] xl:w-[25vw] gap-2 xl:gap-5">
+                            <div className="flex flex-col w-[45vw] xl:w-[20vw] gap-2 xl:gap-5">
                                 {imageCol3.map((data, index) => (
                                     <img src={data.img} key={`col3-${index}`} alt="" className="w-full h-auto xl:rounded-xl" />
                                 ))}
@@ -78,17 +78,17 @@ function Gallery() {
 
                         {/* Duplicate set */}
                         <div className="flex justify-center gap-2 xl:gap-5 px-1 xl:px-2">
-                            <div className="flex flex-col w-[45vw] xl:w-[25vw] gap-2 xl:gap-5">
+                            <div className="flex flex-col w-[45vw] xl:w-[20vw] gap-2 xl:gap-5">
                                 {imageCol1.map((data, index) => (
                                     <img src={data.img} key={`dup1-${index}`} alt="" className="w-full h-auto xl:rounded-xl" />
                                 ))}
                             </div>
-                            <div className="flex flex-col w-[45vw] xl:w-[25vw] gap-2 xl:gap-5">
+                            <div className="flex flex-col w-[45vw] xl:w-[20vw] gap-2 xl:gap-5">
                                 {imageCol2.map((data, index) => (
                                     <img src={data.img} key={`dup2-${index}`} alt="" className="w-full h-auto xl:rounded-xl" />
                                 ))}
                             </div>
-                            <div className="flex flex-col w-[45vw] xl:w-[25vw] gap-2 xl:gap-5">
+                            <div className="flex flex-col w-[45vw] xl:w-[20vw] gap-2 xl:gap-5">
                                 {imageCol3.map((data, index) => (
                                     <img src={data.img} key={`dup3-${index}`} alt="" className="w-full h-auto xl:rounded-xl" />
                                 ))}
@@ -96,17 +96,17 @@ function Gallery() {
                         </div>
 
                         <div className="flex justify-center gap-1 xl:gap-5 px-1 xl:px-2">
-                            <div className="flex flex-col w-[45vw] xl:w-[25vw] gap-2 xl:gap-5">
+                            <div className="flex flex-col w-[45vw] xl:w-[20vw] gap-2 xl:gap-5">
                                 {imageCol1.map((data, index) => (
                                     <img src={data.img} key={`dup1-${index}`} alt="" className="w-full h-auto xl:rounded-xl" />
                                 ))}
                             </div>
-                            <div className="flex flex-col w-[45vw] xl:w-[25vw] gap-2 xl:gap-5">
+                            <div className="flex flex-col w-[45vw] xl:w-[20vw] gap-2 xl:gap-5">
                                 {imageCol2.map((data, index) => (
                                     <img src={data.img} key={`dup2-${index}`} alt="" className="w-full h-auto xl:rounded-xl" />
                                 ))}
                             </div>
-                            <div className="flex flex-col w-[45vw] xl:w-[25vw] gap-2 xl:gap-5">
+                            <div className="flex flex-col w-[45vw] xl:w-[20vw] gap-2 xl:gap-5">
                                 {imageCol3.map((data, index) => (
                                     <img src={data.img} key={`dup3-${index}`} alt="" className="w-full h-auto xl:rounded-xl" />
                                 ))}

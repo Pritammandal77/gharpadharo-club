@@ -8,6 +8,7 @@ import Events from './pages/Events'
 import UpcomingEvents from './pages/UpcomingEvents'
 import Footer from './components/Footer'
 import Gallery from './pages/Gallery'
+import JoinGharPadharo from './pages/JoinGharPadharo'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <Events/>
       <Gallery/>
       <UpcomingEvents/>
+      <JoinGharPadharo/>
       <Footer/>
     </>
   )
