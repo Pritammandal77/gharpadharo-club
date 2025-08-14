@@ -99,7 +99,7 @@ export default function Events() {
       changeSlide(activeIndex + 1);
     }
   };
-  return <section className="w-full flex-col items-center justify-center font-sans overflow-hidden manrope-font" id='events'>
+  return <section className="w-full flex-col items-center justify-center font-sans overflow-hidden manrope-font py-10" id='events'>
     <div className="w-full md:w-[100vw] xl:w-[90vw] mx-auto p-2 md:p-4" >
       <div className="relative flex w-full flex-col items-center rounded-3xl border border-white/10 dark:border-white/10  md:pt-6 md:p-6">
         {/* <Badge className="absolute left-4 top-6 rounded-xl border border-gray-300 dark:border-white/10 text-base text-gray-700 dark:text-white/80 bg-gray-100/80 dark:bg-black/20 backdrop-blur-sm md:left-6">
@@ -169,7 +169,7 @@ function Card({
   return <motion.div className="absolute w-[100%] md:w-[100%] xl:w-[50%] h-[75%]" style={{
     transformStyle: "preserve-3d"
   }} animate={animate} initial={false}>
-    <div className="relative w-full h-full rounded-3xl shadow-2xl overflow-hidden bg-gray-200 dark:bg-neutral-800">
+    <div className="relative w-full h-full rounded-3xl overflow-hidden bg-gray-200 dark:bg-neutral-800">
       <img src={card.imageUrl} alt={card.title} className="w-full h-full object-cover pointer-events-none" onError={e => {
         const target = e.target;
         target.onerror = null;
