@@ -38,7 +38,7 @@ function UpcomingEvents() {
 
     return (
         <>
-            <div className='w-full h-auto flex flex-col items-center gap-10 py-10 xl:pt-30' id='upcoming-events'>
+            <div className='w-full h-auto flex flex-col items-center gap-10 py-10 xl:pt-30 overflow-x-hidden' id='upcoming-events'>
                 <div>
                     <h1 className="text-4xl md:text-5xl font-semibold">Upcoming <span className="text-[#4c50a9]">Events</span> </h1>
                 </div>

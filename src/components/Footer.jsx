@@ -5,7 +5,7 @@ const Footer = () => {
 
     return (
         <>
-            <footer className="bg-[#262626] text-gray-900 dark:text-white py-12 px-4 font-inter border-t border-gray-200 dark:border-gray-800">
+            <footer className="bg-[#262626] text-gray-900 dark:text-white py-12 px-4 font-inter border-t border-gray-200 dark:border-gray-800 overflow-x-hidden">
                 <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:w-[90vw]">
                     <div className="space-y-4">
                         <div className="flex items-center space-x-2">
@@ -15,26 +15,30 @@ const Footer = () => {
                         </div>
                         <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
                             Where every stay , feels like home
+                            <br />
+                            At Gharpadharo, we're dedicated to revolutionizing the room rental experience. We strive to create a transparent, efficient, and trustworthy platform that connects property owners with the perfect tenants, making the entire process seamless and enjoyable for everyone involved.
                         </p>
                         <div className="flex space-x-5 pt-2">
                             <a
-                                href="https://www.instagram.com/tech_banao?igsh=cmo1OWcyNGI0bWM="
+                                href="https://www.instagram.com/ghar_padharo?igsh=MWt0OWJ6b2RqYWs1ag=="
                                 target="_blank"
                                 className="text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-purple-500 transition-transform transform hover:scale-110"
                             >
                                 <i className="fa-brands fa-square-instagram text-[30px]"></i>
                             </a>
                             <a
-                                href="#"
-                                className="text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-purple-500 transition-transform transform hover:scale-110"
-                            >
-                                <i className="fa-brands fa-square-x-twitter text-[30px]"></i>
-                            </a>
-                            <a
-                                href="#"
+                                href="https://www.linkedin.com/company/gharpadharo/"
+                                target="_blank"
                                 className="text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-purple-500 transition-transform transform hover:scale-110"
                             >
                                 <i className="fa-brands fa-linkedin text-[30px]"></i>
+                            </a>
+                            <a
+                                href="https://youtube.com/@gharpadharo?si=nakRG1Oj9_AVk9tf"
+                                target="_blank"
+                                className="text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-purple-500 transition-transform transform hover:scale-110"
+                            >
+                                <i className="fa-brands fa-youtube text-[30px]"></i>
                             </a>
                         </div>
                     </div>
@@ -79,10 +83,10 @@ const Footer = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#contactus"
+                                    href="#joinUs"
                                     className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-purple00 transition-colors duration-300"
                                 >
-                                    Connect
+                                    Join Us
                                 </a>
                             </li>
                         </ul>
@@ -91,31 +95,20 @@ const Footer = () => {
                     { }
                     <div className="space-y-4">
                         <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100">
-                            Our Services
+                            Our USPs
                         </h3>
                         <ul className="space-y-3">
-                            <li onClick={() => nav(`webdev`)}>
-                                <a className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-purple-500 transition-colors duration-300">
-                                    Website Development
-                                </a>
+                            <li className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-purple-500 transition-colors duration-300">
+                                India's first room-finding portal based on real-time data.
                             </li>
-                            <li onClick={() => nav(`uiux`)}>
-                                <a className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-purple-500 transition-colors duration-300">
-                                    UI/UX Design
-                                </a>
+                            <li className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-purple-500 transition-colors duration-300">
+                                No brokerage or client charges.
                             </li>
-                            <li onClick={() => nav(`seo`)}>
-                                <a className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-purple-500 transition-colors duration-300">
-                                    SEO optimization
-                                </a>
+                            <li className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-purple-500 transition-colors duration-300">
+                                Free verification of fake profiles.
                             </li>
-                            <li onClick={() => nav(`support`)}>
-                                <a className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-purple-500 transition-colors duration-300">
-                                    Website Maintainance
-                                </a>
-                            </li>
-                            <li>
-                                <a className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-purple-500 transition-colors duration-300"></a>
+                            <li className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-purple-500 transition-colors duration-300">
+                                Aiming to build a system that easily provides real-time details about PGs, hostels, and flats.
                             </li>
                         </ul>
                     </div>
@@ -130,7 +123,7 @@ const Footer = () => {
                             Gharpadharo HQ, Nanda Ki Chowki-Premnagar, Dehradun,
                             Uttarakhand, India
                         </p>
-                         <p className="text-gray-600 dark:text-gray-300">
+                        <p className="text-gray-600 dark:text-gray-300">
                             <a href="tel:+917903266907">
                                 <i className="fa-solid fa-phone-volume"></i> +91 7903266907
                             </a>

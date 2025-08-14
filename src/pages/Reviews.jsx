@@ -11,7 +11,7 @@ import ReviewCard from '../components/ReviewCard';
 
 function Reviews() {
     return (
-        <div className="w-full px-5 py-20 bg-gray-200 flex flex-col gap-15 items-center">
+        <div className="w-full px-5 py-20 bg-gray-200 flex flex-col gap-15 items-center overflow-x-hidden">
 
             <h1 className="text-4xl md:text-5xl font-semibold">Our <span className="text-[#4c50a9]">Reviews</span> </h1>
 
