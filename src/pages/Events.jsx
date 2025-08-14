@@ -37,8 +37,8 @@ const cardData = [
   },
   {
     id: 3,
-    imageUrl: "/gallery/image7.JPG",
-    title: "Offline Meetup"
+    imageUrl: "/chess.png",
+    title: "Chess Tournament"
   },
   // {
   //   id: 4,

@@ -55,3 +55,17 @@ html {
   position: relative !important;
   margin-top: 30px; /* cards se gap */
 }
+
+
+@keyframes floatBtn {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: floatBtn 1.5s ease-in-out infinite;
+}
