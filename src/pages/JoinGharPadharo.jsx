@@ -5,7 +5,7 @@ import { MotionConfig } from 'framer-motion';
 function JoinGharPadharo() {
     return (
         <>
-            <div className='w-full h-auto flex flex-col gap-10 lg:flex-row py-10 bg-[#1a1a1a] text-white'>
+            <div className='w-full h-auto flex flex-col gap-10 lg:flex-row py-10 bg-[#1a1a1a] text-white' id="joinUs">
                 <div className='w-[100vw] lg:w-[55vw] flex items-center justify-center'>
                     <div className='w-[90%] lg:w-[80%] flex flex-col gap-5'>
                         <MotionWrapper direction='-x'>
