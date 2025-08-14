@@ -16,7 +16,7 @@ function Home() {
             </div>
 
             <a
-                href="https://wa.me/7903269007?text=Hi%20%GharPadharo%2C%20I%20want%20to%20know%20more%20about%20your%20services"
+                href="https://wa.me/7903269007?text=Hi%20GharPadharo%2C%20I%20want%20to%20know%20more%20about%20your%20services"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="animate-float fixed bottom-5 right-5 z-50 bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg"
