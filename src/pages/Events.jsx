@@ -1,11 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 
-// const SparklesIcon = ({
-//   className
-// }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
-//     <path d="M9.93 2.25 12 7.5l2.07-5.25a.5.5 0 0 1 .9 0L17.25 8.5l4.16.34a.5.5 0 0 1 .29.88l-3.2 3.1.95 4.5a.5.5 0 0 1-.73.53L12 14.5l-3.72 2.33a.5.5 0 0 1-.73-.53l.95-4.5-3.2-3.1a.5.5 0 0 1 .29-.88l4.16-.34Z" />
-//   </svg>;
 const ChevronLeftIcon = ({
   className
 }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
@@ -16,12 +11,6 @@ const ChevronRightIcon = ({
 }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
     <path d="m9 18 6-6-6-6" />
   </svg>;
-// const Badge = ({
-//   children,
-//   className
-// }) => <div className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm font-medium ${className}`}>
-//     {children}
-//   </div>;
 
 
 const cardData = [
@@ -40,35 +29,6 @@ const cardData = [
     imageUrl: "/chess.png",
     title: "Chess Tournament"
   },
-  // {
-  //   id: 4,
-  //   imageUrl: "https://i.pinimg.com/736x/84/dc/62/84dc62de850a34a9d420c97f3a2d58f4.jpg",
-  //   title: "Crystal Cave"
-  // }, {
-  //   id: 5,
-  //   imageUrl: "https://i.pinimg.com/1200x/be/c3/7e/bec37e2c43e703f922f887db2578ce2e.jpg",
-  //   title: "Sunset Peaks"
-  // },
-  // {
-  //   id: 6,
-  //   imageUrl: "https://i.pinimg.com/736x/47/dd/47/47dd47b0d66c2fa641e03e370bcb5433.jpg",
-  //   title: "Night Sky"
-  // },
-  // {
-  //   id: 7,
-  //   imageUrl: "https://i.pinimg.com/736x/05/01/bc/0501bcd327d9df915e83154bbf9456e3.jpg",
-  //   title: "Ancient Ruins"
-  // },
-  // {
-  //   id: 8,
-  //   imageUrl: "https://i.pinimg.com/736x/c1/46/be/c146bebffca026d2c4fa76cc85aac917.jpg",
-  //   title: "Magical Tree"
-  // },
-  // {
-  //   id: 9,
-  //   imageUrl: "https://i.pinimg.com/736x/91/7a/51/917a51df0d444def3cade8d626305a67.jpg",
-  //   title: "Celestial Waters"
-  // }
 ];
 
 export default function Events() {
@@ -111,11 +71,7 @@ export default function Events() {
   return <section className="w-full flex-col items-center justify-center font-sans overflow-hidden manrope-font py-10" id='events'>
     <div className="w-full md:w-[100vw] xl:w-[90vw] mx-auto p-2 md:p-4" >
       <div className="relative flex w-full flex-col items-center rounded-3xl border border-white/10 dark:border-white/10  md:pt-6 md:p-6">
-        {/* <Badge className="absolute left-4 top-6 rounded-xl border border-gray-300 dark:border-white/10 text-base text-gray-700 dark:text-white/80 bg-gray-100/80 dark:bg-black/20 backdrop-blur-sm md:left-6">
-            <SparklesIcon className="fill-[#EEBDE0] stroke-1 text-neutral-800 h-5 w-5 mr-1" />
-            Enhanced Carousel
-          </Badge> */}
-
+    
         <div>
           <h1 className="text-4xl md:text-5xl font-semibold">Our <span className="text-[#4c50a9]">Events</span> </h1>
         </div>

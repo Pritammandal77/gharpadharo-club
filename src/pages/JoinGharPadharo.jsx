@@ -1,6 +1,5 @@
 import React from 'react';
 import MotionWrapper from '../utils/MotionWrapper';
-import { MotionConfig } from 'framer-motion';
 
 function JoinGharPadharo() {
     return (

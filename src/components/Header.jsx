@@ -67,13 +67,3 @@ function Header() {
 }
 
 export default Header;
-
-// bg-white/10 backdrop-blur-md     => code for transparent bg
-//old header
-{/* <nav className='h-18 manrope-font bg-[#ffffff] flex items-center font-semibold' style={{ boxShadow: '0px 10px 10px 1px rgba(0,0,0,0.1)' }}>
-                    <div className='flex items-center justify-center gap-1'>
-                        <img src="/logo.webp" alt="" className='h-15 w-15'/>
-                        <p className='text-[18px]'>GharPadharo Club</p>
-                    </div>
-            </nav>
-             */}

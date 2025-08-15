@@ -20,17 +20,6 @@ html {
 }
 
 
-/* this both animations works the same */
-
-/* @keyframes marquee {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-} */
-
 @keyframes marquee {
   0% {
     transform: translate3d(0, 0, 0);
@@ -53,7 +42,7 @@ html {
 /* pagination dots ko neeche shift karna */
 .swiper-pagination {
   position: relative !important;
-  margin-top: 30px; /* cards se gap */
+  margin-top: 30px; /* cards me gap */
 }
 
 
