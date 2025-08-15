@@ -1,10 +1,10 @@
 import React from 'react';
 
-function ReviewCard({name, position , avatarName}) {
+function ReviewCard({name, position , avatarName, msg}) {
     return (
         <>
             <div
-                className="max-w-sm border w-[100%] border-gray-300 rounded-lg shadow-lg bg-white p-6 space-y-4"
+                className="max-w-sm border h-55 lg:h-61 xl:h-50 w-[100%] border-gray-300 rounded-lg shadow-lg bg-white p-6 space-y-4"
             >
                 <div className="flex items-center space-x-4">
                     <div
@@ -21,8 +21,7 @@ function ReviewCard({name, position , avatarName}) {
                 <div className="flex text-[#525599] text-xl">★★★★★</div>
 
                 <p className="text-gray-700">
-                    I've been using Imagify for nearly two years, primarily for Instagram, and
-                    it has been incredibly user-friendly, making my work much easier.
+                  {msg}
                 </p>
 
             </div>
